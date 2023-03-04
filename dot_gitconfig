@@ -1,0 +1,10 @@
+# This is Git's per-user configuration file.
+[user]
+# Please adapt and uncomment the following lines:
+#	name = chenhao gao
+#	email = chenhaogao@chenhaodeMacBook-Pro.local
+name = chenhao gao
+email = 3210106354@zju.edu.cn
+[alias]
+	ch = checkout
+	lg = log --all --graph --decorate
