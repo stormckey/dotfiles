@@ -7,6 +7,7 @@ fi
 
 alias ll="ls -lah"
 alias vi="vim"
+alias w2m="source w2m.sh"
 alias start="source start.sh"
 alias pip='pip3'
 alias python="python3"
@@ -14,6 +15,7 @@ alias -s txt=vim
 alias -s py=vim
 alias mysql="mysql -u root -p"
 alias test="source ./test.sh"
+alias web="source web.sh"
 alias proxy="export https_proxy=http://127.0.0.1:7890 http_proxy=http://127.0.0.1:7890 all_proxy=socks5://127.0.0.1:7890"
 alias unproxy="unset https_proxy,unset http_proxy,unset all_proxy"
 #strat the plugins
@@ -28,3 +30,6 @@ DEFAULT_USER prompt_context(){}
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 PATH=$PATH:/usr/local/mysql/bin:~/Desktop/mybin:~/Library/Python/3.9/bin
+source /usr/local/share/zsh-history-substring-search/zsh-history-substring-search.zsh
+bindkey '^[[A' history-substring-search-up
+bindkey '^[[B' history-substring-search-down
