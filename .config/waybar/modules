@@ -570,6 +570,16 @@
     "on-click": "playerctl previous",
 },
 
+"custom/powersave": {
+    "format": "  ",
+    "on-click": "tuned-adm profile laptop-battery-powersave; notify-send 'PowerSave Mode Enabled'"
+},
+
+"custom/performance": {
+    "format": "  ",
+    "on-click": "tuned-adm profile latency-performance; notify-send 'Performance Mode Enabled'"
+},
+
 // Separators
 "custom/separator#dot": {
     "format": "",
