@@ -1,0 +1,58 @@
+[pyprland]
+plugins = [
+    "scratchpads",
+    "magnify",
+]
+
+[scratchpads.gpt]
+animation ="fromLeft"
+command ="edge --app=https://chat.openai.com --class vivaldi-dropterm"
+class = "vivaldi-dropterm"
+size = "1440px 1440px"
+unfocus = "hide"
+lazy = true
+
+[scratchpads.music]
+animation = "fromLeft"
+command = "apple-music"
+size = "1440px 1440px"
+unfocus = "hide"
+
+[scratchpads.term]
+animation = "fromTop"
+command = "alacritty --class alacritty-dropterm"
+class = "alacritty-dropterm"
+size = "75% 60%"
+max_size = "1920px 50%"
+margin = 50
+
+[scratchpads.volume]
+animation = "fromRight"
+command = "pavucontrol"
+class = "pavucontrol"
+size = "720px 720px"
+unfocus = "hide"
+lazy = true
+
+[scratchpads.qq]
+animation = "fromLeft"
+command = "linuxqq"
+class = "linuxqq"
+size = "1440px 1440px"
+
+[scratchpads.clash]
+animation = "fromRight"
+command = "clash-verge"
+class = "clash-verge"
+size = "1440px 1440px"
+unfocus = "hide"
+
+
+
+[scratchpads.bluetooth]
+animation = "fromRight"
+command = "blueman-manager"
+class = "blueman-manager"
+size = "720px 720px"
+unfocus = "hide"
+lazy = true

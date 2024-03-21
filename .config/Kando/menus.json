@@ -1,0 +1,313 @@
+{
+  "menus": [
+    {
+      "nodes": {
+        "type": "submenu",
+        "name": "Prototype Menu",
+        "icon": "token",
+        "iconTheme": "material-symbols-rounded",
+        "children": [
+          {
+            "type": "submenu",
+            "name": "Files",
+            "icon": "folder",
+            "iconTheme": "material-symbols-rounded",
+            "children": [
+              {
+                "type": "command",
+                "data": {
+                  "command": "thunar ~"
+                },
+                "name": "home",
+                "icon": "home",
+                "iconTheme": "material-symbols-rounded"
+              },
+              {
+                "type": "command",
+                "data": {
+                  "command": "thunar ~/Downloads"
+                },
+                "name": "Downloads",
+                "icon": "download",
+                "iconTheme": "material-symbols-rounded"
+              },
+              {
+                "type": "command",
+                "data": {
+                  "command": "thunar ~/.config"
+                },
+                "name": "config",
+                "icon": "settings",
+                "iconTheme": "material-symbols-rounded"
+              }
+            ]
+          },
+          {
+            "type": "submenu",
+            "name": "Webs",
+            "icon": "public",
+            "iconTheme": "material-symbols-rounded",
+            "children": [
+              {
+                "type": "uri",
+                "data": {
+                  "uri": "https://www.google.com"
+                },
+                "name": "Google",
+                "icon": "google",
+                "iconTheme": "simple-icons"
+              },
+              {
+                "type": "hotkey",
+                "data": {
+                  "hotkey": "Ctrl+w",
+                  "delayed": true
+                },
+                "name": "close current tab",
+                "icon": "close",
+                "iconTheme": "material-symbols-rounded"
+              },
+              {
+                "type": "hotkey",
+                "data": {
+                  "hotkey": "Ctrl+t",
+                  "delayed": true
+                },
+                "name": "new tab",
+                "icon": "add",
+                "iconTheme": "material-symbols-rounded"
+              },
+              {
+                "type": "uri",
+                "data": {
+                  "uri": "https://www.bilibili.com"
+                },
+                "name": "BiliBili",
+                "icon": "bilibili",
+                "iconTheme": "simple-icons"
+              },
+              {
+                "type": "uri",
+                "data": {
+                  "uri": "https://www.youtube.com"
+                },
+                "name": "Youtube",
+                "icon": "youtube",
+                "iconTheme": "simple-icons"
+              }
+            ]
+          },
+          {
+            "type": "command",
+            "data": {
+              "command": "hyprctl dispatch workspace e+1"
+            },
+            "name": "Prev Workspace",
+            "icon": "arrow_circle_right",
+            "iconTheme": "material-symbols-rounded"
+          },
+          {
+            "type": "command",
+            "data": {
+              "command": "pypr toggle gpt"
+            },
+            "name": "ChatGPT",
+            "icon": "openai",
+            "iconTheme": "simple-icons"
+          },
+          {
+            "type": "submenu",
+            "name": "tools",
+            "icon": "construction",
+            "iconTheme": "material-symbols-rounded",
+            "children": [
+              {
+                "type": "command",
+                "data": {
+                  "command": "pypr zoom"
+                },
+                "name": "zoom",
+                "icon": "Zoom_In",
+                "iconTheme": "material-symbols-rounded"
+              }
+            ]
+          },
+          {
+            "type": "submenu",
+            "name": "pypr",
+            "icon": "apps",
+            "iconTheme": "material-symbols-rounded",
+            "children": [
+              {
+                "type": "command",
+                "data": {
+                  "command": "pypr toggle volume"
+                },
+                "name": "audio settting",
+                "icon": "headset",
+                "iconTheme": "material-symbols-rounded"
+              },
+              {
+                "type": "command",
+                "data": {
+                  "command": "pypr toggle music"
+                },
+                "name": "music",
+                "icon": "applemusic",
+                "iconTheme": "simple-icons"
+              },
+              {
+                "type": "command",
+                "data": {
+                  "command": "pypr toggle qq"
+                },
+                "name": "QQ",
+                "icon": "tencentqq",
+                "iconTheme": "simple-icons"
+              },
+              {
+                "type": "command",
+                "data": {
+                  "command": "pypr toggle bluetooth"
+                },
+                "name": "bluetooth",
+                "icon": "bluetooth",
+                "iconTheme": "material-symbols-rounded"
+              },
+              {
+                "type": "command",
+                "data": {
+                  "command": "pypr toggle clash"
+                },
+                "name": "clash",
+                "icon": "wifi",
+                "iconTheme": "material-symbols-rounded"
+              }
+            ]
+          },
+          {
+            "type": "command",
+            "data": {
+              "command": "hyprctl dispatch workspace e-1"
+            },
+            "name": "Next Workspace",
+            "icon": "arrow_circle_left",
+            "iconTheme": "material-symbols-rounded"
+          },
+          {
+            "type": "submenu",
+            "name": "window management",
+            "icon": "Monitor",
+            "iconTheme": "material-symbols-rounded",
+            "children": [
+              {
+                "type": "hotkey",
+                "data": {
+                  "hotkey": "Super+Control+Shift+Alt+F",
+                  "delayed": true
+                },
+                "name": "fullscreen",
+                "icon": "fullscreen",
+                "iconTheme": "material-symbols-rounded"
+              },
+              {
+                "type": "hotkey",
+                "data": {
+                  "hotkey": "Super+Control+Shift+Alt+M",
+                  "delayed": true
+                },
+                "name": "exit full screen",
+                "icon": "fullscreen_exit",
+                "iconTheme": "material-symbols-rounded"
+              },
+              {
+                "type": "hotkey",
+                "data": {
+                  "hotkey": "Super+Q",
+                  "delayed": true
+                },
+                "name": "kill active",
+                "icon": "close",
+                "iconTheme": "material-symbols-rounded"
+              },
+              {
+                "type": "hotkey",
+                "data": {
+                  "hotkey": "Super+T",
+                  "delayed": true
+                },
+                "name": "toggle float",
+                "icon": "picture_in_picture_center",
+                "iconTheme": "material-symbols-rounded"
+              }
+            ]
+          }
+        ]
+      },
+      "shortcut": "Control+Space",
+      "centered": false
+    },
+    {
+      "nodes": {
+        "type": "submenu",
+        "name": "Browser Menu",
+        "icon": "vivaldi",
+        "iconTheme": "simple-icons",
+        "children": [
+          {
+            "type": "hotkey",
+            "data": {
+              "hotkey": "Ctrl+r",
+              "delayed": true
+            },
+            "name": "refresh",
+            "icon": "refresh",
+            "iconTheme": "material-symbols-rounded"
+          },
+          {
+            "type": "hotkey",
+            "data": {
+              "hotkey": "Ctrl+m",
+              "delayed": true
+            },
+            "name": "next tab",
+            "icon": "arrow_right",
+            "iconTheme": "material-symbols-rounded"
+          },
+          {
+            "type": "hotkey",
+            "data": {
+              "hotkey": "Ctrl+t",
+              "delayed": true
+            },
+            "name": "new tab",
+            "icon": "add",
+            "iconTheme": "material-symbols-rounded"
+          },
+          {
+            "type": "hotkey",
+            "data": {
+              "hotkey": "Ctrl+w",
+              "delayed": true
+            },
+            "name": "close tab",
+            "icon": "close",
+            "iconTheme": "material-symbols-rounded"
+          },
+          {
+            "type": "hotkey",
+            "data": {
+              "hotkey": "Ctrl+i",
+              "delayed": true
+            },
+            "name": "prev tab",
+            "icon": "arrow_left",
+            "iconTheme": "material-symbols-rounded"
+          }
+        ]
+      },
+      "shortcut": "Control+Space",
+      "centered": false
+    }
+  ]
+}
