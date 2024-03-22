@@ -6,15 +6,15 @@ plugins = [
 
 [scratchpads.gpt]
 animation ="fromLeft"
-command ="edge --app=https://chat.openai.com --class vivaldi-dropterm"
-class = "vivaldi-dropterm"
+command ="edge --app=https://chat.openai.com --class edge-dropterm"
+class = "edge-dropterm"
 size = "1440px 1440px"
 unfocus = "hide"
 lazy = true
 
 [scratchpads.music]
 animation = "fromLeft"
-command = "apple-music"
+command = "apple-music --class music-dropterm"
 size = "1440px 1440px"
 unfocus = "hide"
 
@@ -37,7 +37,6 @@ lazy = true
 [scratchpads.qq]
 animation = "fromLeft"
 command = "linuxqq"
-class = "linuxqq"
 size = "1440px 1440px"
 
 [scratchpads.clash]
@@ -46,8 +45,6 @@ command = "clash-verge"
 class = "clash-verge"
 size = "1440px 1440px"
 unfocus = "hide"
-
-
 
 [scratchpads.bluetooth]
 animation = "fromRight"

@@ -1,4 +1,5 @@
 #!/bin/bash
+# This script is left for learning how to use rofi to show things
 #  _              _     _           _ _                  
 # | | _____ _   _| |__ (_)_ __   __| (_)_ __   __ _ ___  
 # | |/ / _ \ | | | '_ \| | '_ \ / _` | | '_ \ / _` / __| 
