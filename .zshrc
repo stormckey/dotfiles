@@ -17,6 +17,8 @@ source ~/.zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 [[ -s /etc/profile.d/autojump.sh ]] && source /etc/profile.d/autojump.sh
 
 #alias
+alias cv="g++ $(pkg-config --cflags --libs opencv3)"
+alias sudo='sudo '
 alias rm='echo "use trash-put"'
 alias tp='trash-put'
 alias te='trash-empty'
@@ -57,7 +59,7 @@ unset __conda_setup
 export EDITOR=nvim
 export LIBVIRT_DEFAULT_URI='qemu:///system'
 export HISTFILE=~/.zsh_history
-export PATH=$PATH:~/.local/bin
+export PATH=$PATH:~/.local/bin:~/.cargo/bin
 
 #OCaml env
 eval $(opam env)

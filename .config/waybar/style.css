@@ -140,8 +140,17 @@ window#waybar {
     animation-direction: alternate;
 }
 
+#custom-cputemp,
 #cpu {
     color: #a3be8c;
+}
+
+#custom-gputemp {
+    color: @color7;
+}
+
+#custom-gpuusage {
+    color: @color7;
 }
 
 #disk {

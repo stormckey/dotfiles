@@ -277,7 +277,7 @@
     "keyboard-name": "at-translated-set-2-keyboard",
     "on-click": "hyprctl switchxkblayout $SET_KB next"
 },
-    
+        
 "hyprland/submap": {
     "format": "<span style=\"italic\">  {}</span>", // Icon: expand-arrows-alt
     "tooltip": false,
@@ -402,6 +402,24 @@
     "format": "{temperatureC}°C {icon}",
     "format-icons": ["󰈸"],
     "on-click-right": "kitty --title nvtop sh -c 'nvtop'"
+},
+
+"custom/cputemp": {
+    "format": "{}",
+    "exec": "~/scripts/cputemp.sh",
+    "interval": 1
+},
+
+"custom/gpuusage": {
+    "format": "{}",
+    "exec": "~/scripts/gpuusage.sh",
+    "interval": 1
+},
+
+"custom/gputemp": {
+    "format": "{}",
+    "exec": "~/scripts/gputemp.sh",
+    "interval": 1
 },
       
 "tray": {

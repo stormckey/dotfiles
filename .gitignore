@@ -1,1 +1,3 @@
-session/
+**/Kando/
+!**/Kando/config.json
+!**/Kando/menus.json

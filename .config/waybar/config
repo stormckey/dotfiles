@@ -17,8 +17,10 @@
 	"hyprland/workspaces#pacman",
 	"custom/separator#dot-line",
 	"cpu",
+    "custom/cputemp",
 	"custom/separator#dot-line", 
-	"temperature",
+    "custom/gpuusage",
+    "custom/gputemp",
 	"custom/separator#dot-line", 
 	"memory",
 	"custom/separator#dot-line",
@@ -61,5 +63,5 @@
 	"battery",
 	"custom/separator#dot-line",
 	"custom/power",
-	],
+	]
 }
