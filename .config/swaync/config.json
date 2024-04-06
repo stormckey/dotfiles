@@ -28,10 +28,8 @@
   "script-fail-notify": true,
   "widgets": [
     "dnd",
-    "title",
-    "volume",
-   	"backlight",
     "mpris",
+    "title",
     "notifications"
   ],
   "widget-config": {
@@ -55,8 +53,8 @@
       "show-per-app-label": false
     },
     "mpris": {
-      "image-size": 10,
-      "image-radius": 0
+      "image-size": 80,
+      "image-radius": 12
     },
     "label": {
         "max-lines": 1,

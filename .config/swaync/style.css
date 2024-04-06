@@ -46,6 +46,31 @@
 /*   border: solid 4px red; */
 /* } */
 
+.widget-mpris {
+  color: @subtext1;
+  background: @crust;
+  padding: 5px 10px;
+  margin: 5px 10px 5px 10px;
+  border-radius: 5px;
+}
+
+.widget-mpris>box>button {
+  border-radius: 5px;
+}
+
+.widget-mpris-player {
+  padding: 5px 10px;
+  margin: 10px;
+}
+
+.widget-mpris-title {
+  font-weight: 700;
+  font-size: 1.25rem;
+}
+
+.widget-mpris-subtitle {
+  font-size: 1.1rem;
+}
 .notification {
 	border: none;
     box-shadow: none;

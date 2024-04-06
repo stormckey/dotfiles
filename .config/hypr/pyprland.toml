@@ -4,6 +4,13 @@ plugins = [
     "magnify",
 ]
 
+[scratchpads.stockman]
+animation = "fromLeft"
+command = "stockman"
+size = "540px 1080px"
+unfocus = "hide"
+lazy = true
+
 [scratchpads.gpt]
 animation ="fromLeft"
 command ="edge --app=https://chat.openai.com --class edge-dropterm"
@@ -11,6 +18,12 @@ class = "edge-dropterm"
 size = "1440px 1440px"
 unfocus = "hide"
 lazy = true
+
+[scratchpads.zla]
+animation = "fromLeft"
+command = "/home/stormckey/.local/bin/zju-learning-assistant"
+size = "1440px 1440px"
+unfocus = "hide"
 
 [scratchpads.music]
 animation = "fromLeft"
