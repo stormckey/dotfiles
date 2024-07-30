@@ -14,12 +14,13 @@ source ~/.zsh/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh
 #Enable syntax highlight
 source ~/.zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 #enable autojump
+#
 [[ -s /etc/profile.d/autojump.sh ]] && source /etc/profile.d/autojump.sh
 
 #alias
 alias cv="g++ $(pkg-config --cflags --libs opencv3)"
 alias sudo='sudo '
-alias rm='echo "use trash-put"'
+#alias rm='echo "use trash-put"'
 alias tp='trash-put'
 alias te='trash-empty'
 alias tl='trash-list'
@@ -115,3 +116,15 @@ paste() {
     done
 }
 eval "$(atuin init zsh)"
+export QT_QPA_PLATFORM=xcb
+export ANDROID_HOME=/home/stormckey/Android/Sdk
+source /usr/share/nvm/init-nvm.sh
+export ANDROID_HOME=/home/stormckey/Android/Sdk
+export PATH=$PATH:$ANDROID_HOME/platform-tools
+export PATH=$PATH:$ANDROID_HOME/tools
+export PATH=$PATH:$ANDROID_HOME/tools/bin
+
+#for pyenv
+export PATH="$HOME/.pyenv/bin:$PATH"
+eval "$(pyenv init -)"
+eval "$(pyenv virtualenv-init -)"

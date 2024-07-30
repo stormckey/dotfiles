@@ -168,7 +168,7 @@
           }
         ]
       },
-      "shortcut": "Control+Space",
+      "shortcutID": "prototype_menu",
       "centered": false
     },
     {
@@ -231,6 +231,7 @@
         ]
       },
       "shortcut": "Control+Space",
+      "shortcutID": "browser_menu",
       "centered": false
     }
   ]
